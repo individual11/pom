@@ -2,14 +2,14 @@
   "name": "pom-mini-ui",
   "theme": "ui",
   "version": "0.0.1",
-  "description": "Todd Atom UI Theme",
+  "description": "A smaller version of the POM theme by Scott Riley (http://scottriley.im)",
   "license": "MIT",
-  "repository": "https://github.com/scott-riley/pom",
+  "repository": "https://github.com/individual11/pom-mini",
   "engines": {
     "atom": ">0.40.0"
   },
   "author": {
-    "name": "Scott Riley",
-    "url": "http://scottriley.im"
+    "name": "David Vogeleer",
+    "url": "http://individual11.com"
   }
 }
