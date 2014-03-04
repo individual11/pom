@@ -6,14 +6,13 @@
 @tab-bottom-border-height: 8px;
 @tab-border: 1px solid @tab-border-color;
 @tab-bar-bottom-border-color: #111;
-
 .tab-bar {
   height: @tab-height;
   background: #34373E;
   padding: 0 13px 0 0;
   box-sizing: border-box;
   transition: all .2s ease-in-out;
-  border-bottom: 2px solid lighten(#258056,10);
+  border-bottom: 2px solid @tab-highlight-color;
   box-sizing: content-box;
   -webkit-font-smoothing: antialiased;
   .tab {
@@ -25,7 +24,7 @@
     padding-left: 15px;
     transition: all .1s ease-in;
     border: none;
-    font-size: 1.2em;
+    font-size: @tab-font-size;
 
     &:hover {
       background: rgba(255,255,255,.7);
@@ -65,7 +64,7 @@
 
     &, &:before {
       height: @tab-height;
-      background-color: lighten(#258056,10);
+      background-color: @tab-highlight-color;
     }
 
     &:before {
