@@ -7,7 +7,7 @@
   border-radius: @component-border-radius;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  margin-top: 58px;
+  margin-top: 30px;
 
   .editor.mini {
     margin-bottom: @component-padding;
@@ -19,10 +19,12 @@
     background-color: lighten(@overlay-background-color, 3%);
 
     li {
-      padding: @component-padding;
+      padding: @component-padding/2 @component-padding;
       border-bottom: 1px solid @overlay-background-color;
 
-      &.two-lines { padding: @component-padding/2 @component-padding; }
+      &.two-lines {
+        padding: @component-padding/2 @component-padding;
+      }
 
       .status.icon {
         float: right;
